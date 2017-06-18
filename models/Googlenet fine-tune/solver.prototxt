@@ -1,0 +1,15 @@
+net: "D:\\Users\\Boris\\Documents\\FRI\\IOI\\CNN learn\\Googlenet fine-tune clear inception4b\\model\\train_val.prototxt"
+test_iter: 1000
+test_interval: 1000
+display: 40
+average_loss: 40
+base_lr: 0.0005
+lr_policy: "step"
+stepsize: 10000
+gamma: 0.1
+max_iter: 350000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 10000
+snapshot_prefix: "D:\\Users\\Boris\\Documents\\FRI\\IOI\\CNN learn\\Googlenet fine-tune clear inception4b\\model\\googlenet_boris"
+solver_mode: GPU
